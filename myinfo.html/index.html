@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My info</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #f2f5f9;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #1e1e1e;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #777;
+    }
+
+    .about {
+      display: grid;
+      grid-template-columns: 250px 1fr;
+      gap: 30px;
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 900px;
+      width: 100%;
+    }
+
+    .about img {
+      width: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #0073e6;
+    }
+
+    .bio h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .bio p {
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .social {
+      margin-top: 30px;
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      max-width: 900px;
+      width: 100%;
+    }
+
+    .social h2 {
+      margin-bottom: 15px;
+    }
+
+    .social ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .social a {
+      text-decoration: none;
+      colo
+    .social a:hover {
+      background-color: #005bb5;
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 30px;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 700px) {
+      .about {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+      .about img {
+        margin: 0 auto;
+        width: 180px;
+      }
+      .social ul {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>G.Lohith Krishna</h1>
+    <p>Computer science and engineering 🚀</p>
+  </header>
+
+  <section class="about">
+    <img src="https://i.imgur.com/2DhmtJ4.jpg" alt="Profile Photo">
+    <div class="bio">
+      <h2>About Me</h2>
+      <p>
+        Hi !,i am G.Lohith Krishna a passionate Computer Science student at KL University.
+        I’m fascinated by Artificial Intelligence, Machine Learning, and how data can
+        create meaningful impact. I love solving problems, exploring new technologies,
+        and continuously improving myself through hands-on projects.
+      </p>
+    </div>
+  </section>
+
+  <section class="social">
+    <h2>Connect With Me</h2>
+    <ul>
+      <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+      <li><a href="https://linkedin.com/" target="_blank">LinkedIn</a></li>
+      <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+    </ul>ā
+  </section>
+html>

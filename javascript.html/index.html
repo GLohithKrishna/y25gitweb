@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript: External, Internal, Inline</title>
+
+  <script src="external.js"></script>
+  
+  <script>
+    function showInternalMsg() {
+      alert("This is from Internal Script");
+    }
+  </script>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 16px; }
+    h2 a { text-decoration: underline; }
+    div { margin-bottom: 24px; }
+    button { padding: 5px 12px; margin-top: 8px; }
+    hr { margin: 16px 0; }
+  </style>
+</head>
+<body>
+  <h2>JavaScript: <a href="#">External, Internal, Inline</a></h2>
+  
+  <div>
+    <h3>External Script</h3>
+    <button onclick="showExternalMsg()">Show External Message</button>
+    <hr>
+  </div>
+  
+  <div>
+    <h3>Internal Script</h3>
+    <button onclick="showInternalMsg()">Show Internal Message</button>
+    <hr>
+  </div>
+  
+  <div>
+    <h3>Inline Script</h3>
+    <button onclick="alert('This is from Inline Script')">Show Inline Message</button>
+  </div>
+</body>
+</html>
